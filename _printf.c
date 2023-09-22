@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _printf - Simulates the printf function
- * @format: Format to print to the console
+ * _printf - standard output function
+ * @format: variadic function arg
  *
  * Description: Function that simulate the printf function
  * for the following conversion specifiers:
@@ -31,7 +31,7 @@
  * (-)      Justify the string to the left
  *
  * Return: Number of characters printed
- * (excluding the null byte used to end output to strings)
+ * excluding the null byte used to end output to strings
  */
 int _printf(const char *format, ...)
 {
@@ -74,7 +74,7 @@ int _printf(const char *format, ...)
 }
 
 /**
- * check_specs - Check if a string has a conversion specifier
+ * check_specs - determines if a string has a conversion specifier
  * @s: String where to check the conversion specifier
  * @p: Pointer to the variable where the length to consider is saved
  * Return: -1 if ends the string
