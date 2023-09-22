@@ -2,9 +2,9 @@
 
 /**
  * gen_r - Generates a reversed string written to a buffer
- * @pattern: Pattern to follow to print the adress
+ * @pattern: Pattern to follow to print
  * @len_p: Length of the pattern
- * @list: list of arguments of the pattern
+ * @list: list of arguments
  * @len: length
  *
  * Generates an reverse string
