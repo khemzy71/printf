@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * gen_x - Generates an hexadecimal conversion written to a string in lowercase
+ * gen_x - Generates an hexadecimal conversion to a string in lowercase
  * @pattern: Pattern to follow to print the hexadecimal
  * @len_p: Length of the pattern
  * @list: list of arguments of the pattern
@@ -47,7 +47,7 @@ char *gen_x(const char *pattern, int len_p, va_list list, int *len)
 	return (str);
 }
 /**
- * gen_X - Generates an hexadecimal conversion written to a string in Uppercase
+ * gen_X - Generates an hexadecimal conversion to a string in Uppercase
  * @pattern: Pattern to follow to print the hexadecimal
  * @len_p: Length of the pattern
  * @list: list of arguments of the pattern
