@@ -73,4 +73,4 @@ int app_width(char *buffer, int len_b, int wi);
 int app_hash(const char *pattern, int len_p, char *buffer);
 int app_plus_space(const char *pattern, int len_p, char *buffer);
 int check_flag(const char *pattern, int len_p, char flag);
-#endif
+#endif /*MAIN_H*/
