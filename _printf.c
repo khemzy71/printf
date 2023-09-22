@@ -75,7 +75,7 @@ int _printf(const char *format, ...)
 
 /**
  * check_specs - determines if a string has a conversion specifier
- * @s: String where to check the conversion specifier
+ * @s: String input to check the conversion specifier
  * @p: Pointer to the variable where the length to consider is saved
  * Return: -1 if ends the string
  * 0 if does not find a conversion specifier but does not end the format
@@ -119,7 +119,7 @@ int check_specs(const char *s, int *p)
 
 /**
  * _memcpy - copies the memory from src to the buffer
- * @buffer: The destination pointer
+ * @buffer: The storage macro pointer
  * @src: The source pointer
  * @i_b: Pointer to the index of the buffer
  * @stock: Pointer to the actual stock of bytes written
@@ -128,9 +128,9 @@ int check_specs(const char *s, int *p)
  * Description: Copies the memory from src to the buffer inserted.
  * the buffer has a limit of 1024. If the index of buffer is greater than
  * 1024 after the copy, writes the content to the standard output, sum the
- * bytes written and resets the index
+ * bytes written and resets the index.
  *
- * Return: Nothing(?)
+ * Return: Nothing
  */
 void _memcpy(char *buffer, const char *src, int *i_b, int *stock, int n)
 {
