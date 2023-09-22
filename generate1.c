@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * gen_c - Generates a character written to a string
+ * gen_c - Generates a string
  * @pattern: Pattern to follow to print the character
  * @len_p: Length of the pattern
  * @list: list of arguments of the pattern
@@ -41,7 +41,7 @@ char *gen_c(const char *pattern, int len_p, va_list list, int *len)
  * @list: list of arguments of the pattern
  * @len: length
  *
- * Generates a character to a string, following
+ * Generates a string, following
  * the pattern inserted by parameter.
  * The pattern was already checked.
  * The next argument in list corresponds to the argument to print
@@ -109,7 +109,7 @@ char *gen_i(const char *pattern, int len_p, va_list list, int *len)
 
 }
 /**
- * gen_o - Generates an octal conversion written to a string
+ * gen_o - Generates an octal conversion
  * @pattern: Pattern to follow to print the octal
  * @len_p: Length of the pattern
  * @list: list of arguments of the pattern
